@@ -1,3 +1,6 @@
+import torch
+from torch.optim.optimizer import Optimizer
+
 class step_tuned_SGD(Optimizer):
     
     """Implement Second-order step-size tuning of SGD algorithm https://arxiv.org/pdf/2103.03570v1.pdf
