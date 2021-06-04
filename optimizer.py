@@ -1,5 +1,6 @@
 import torch
 from torch.optim.optimizer import Optimizer
+from copy import deepcopy
 
 class step_tuned_SGD(Optimizer):
     
